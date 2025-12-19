@@ -12,7 +12,6 @@ public class Main {
 
         Dispatcher dispatcher = new Dispatcher(queue);
 
-        // Такси с разными цветами
         Taxi taxi1 = new Taxi("\u001B[31mКрасное такси\u001B[0m", dispatcher);
         Taxi taxi2 = new Taxi("\u001B[34mСинее такси\u001B[0m", dispatcher);
         Taxi taxi3 = new Taxi("\u001B[32mЗелёное такси\u001B[0m", dispatcher);

@@ -37,7 +37,7 @@ public class Main {
         executor.submit(taxi4);
         executor.submit(taxi5);
 
-        Thread.sleep(3000);
+        Thread.sleep(30000);
 
         generator.stop();
         dispatcher.stop();
